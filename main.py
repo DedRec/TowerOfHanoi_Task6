@@ -100,18 +100,6 @@ def ToH43(i, j, a, b, c, d):        # The most optimal method developed first by
     print(ToH4_arr[m - k])
 
 
-# def ToH4moves(n):
-#     if count[n] > -1:
-#         return count[n]
-#     elif n % 2 == 0:
-#         count[n] = ToH4moves(n-1)+2
-#         return count[n]
-#     else:
-#         count[n] = ToH4moves(n-1)+1
-#         return count[n]
-
-
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     main()
 
