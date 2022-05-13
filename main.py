@@ -81,7 +81,7 @@ def ToH4(n, a, b, c, d):
         return ToH4_arr[n]
 
 
-def ToH43(i, j, a, b, c, d):        # The most optimal method. Developed first by Stockmeyer.Using k=sqrt(2m).
+def ToH43(i, j, a, b, c, d):        # The most optimal method developed first by Stockmeyer using k=sqrt(2m)
     global ToH4_arr
     global current_disk_no
     m = j - i + 1;
