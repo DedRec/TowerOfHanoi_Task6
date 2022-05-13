@@ -17,7 +17,9 @@ for i in range(1, 100):  # This loop is used only to initialize the arrays above
 
 def main():
     global ToH4_arr
-    n = int(input('Enter number of disks: '))
+    n = 8
+    #  uncomment this line if you want to test with other values of n
+    #  n = int(input('Enter number of disks: '))
     print("---------------Solution using Dynamic Programming--------------")
     ToH4(n, 'A', 'B', 'C', 'D')
     print(ToH4_arr[n])
